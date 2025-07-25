@@ -1,0 +1,13 @@
+{
+  "name": "i-smart",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": ["xdebug.php-debug"]
+    }
+  },
+  "forwardPorts": [80],
+  "postCreateCommand": "mysql -u root -proot < .devcontainer/init.sql"
+}
