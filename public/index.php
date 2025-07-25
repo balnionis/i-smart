@@ -1,3 +1,3 @@
 <?php
-echo "<h1>Sveiki atvykę į i-smart sistemą</h1>";
+echo "Sveiki, i-smart sistema veikia!";
 ?>
