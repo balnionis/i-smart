@@ -20,3 +20,6 @@ services:
       MYSQL_DATABASE: ismart
     ports:
       - "3306:3306"
+volumes:
+  - ./public:/var/www/html
+  - ./000-default.conf:/etc/apache2/sites-available/000-default.conf
